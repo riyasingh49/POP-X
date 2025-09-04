@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/POP-X">
+    <Router basename={process.env.NODE_ENV === "production" ? "/POP-X" : "/"}>
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/login" element={<Login />} />
