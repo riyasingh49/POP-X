@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/POP-X/static/css/main.816447e6.css",
+    "main.js": "/POP-X/static/js/main.ebdd4ee1.js",
+    "static/js/453.c63f1065.chunk.js": "/POP-X/static/js/453.c63f1065.chunk.js",
+    "index.html": "/POP-X/index.html",
+    "main.816447e6.css.map": "/POP-X/static/css/main.816447e6.css.map",
+    "main.ebdd4ee1.js.map": "/POP-X/static/js/main.ebdd4ee1.js.map",
+    "453.c63f1065.chunk.js.map": "/POP-X/static/js/453.c63f1065.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.816447e6.css",
+    "static/js/main.ebdd4ee1.js"
+  ]
+}
