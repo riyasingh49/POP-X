@@ -1,0 +1,94 @@
+.signup-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 13px 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  background: white;
+  height: 40px;
+  padding-left: 17px;
+}
+
+.input-group label {
+  position: absolute;
+  left: 12px;
+  top: -8px;
+  background: white;
+  padding: 0 4px;
+  color: #7b2fff;
+  font-size: 13px;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.input-group .required {
+  color: red;
+  margin-left: 2px;
+}
+
+.input-group input:focus {
+  border-color: #7b2fff;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  gap: 20px;
+}
+
+label input[type="radio"] {
+  margin-right: 5px;
+  accent-color: #7b2fff;
+}
+
+.btn-create {
+  background-color: #7b2fff;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 110px;
+}
+
+.btn-create:hover {
+  background-color: #5e23cc;
+}

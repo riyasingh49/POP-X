@@ -1,0 +1,96 @@
+.account-wrapper {
+  background: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.account-box {
+  background: #f8f8f8;
+  width: 100%;
+  max-width: 450px;
+  min-height: 100vh;
+  border: 1px solid #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.account-header {
+  background: white;
+}
+
+.profile {
+  width: 100%;
+  max-width: 450px;
+  background: #f8f8f8;
+}
+
+.account-title {
+  font-size: 18px;
+  font-weight: 100;
+  color: #222;
+  padding: 20px;
+  margin: 0;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-pic-wrapper {
+  position: relative;
+}
+
+.profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #7b2fff;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.profile-info {
+  margin-left: 12px;
+}
+
+.profile-info h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.profile-info .email {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.description {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  padding: 0 20px 20px 20px;
+  margin: 0;
+}
+
+.divider {
+  border-bottom: 1px dashed #ccc;
+  margin: 0 20px;
+  flex-shrink: 0;
+}
